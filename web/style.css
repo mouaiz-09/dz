@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: wheat;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, #01022d, #000);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:
+        linear-gradient(to right, rgba(0, 0, 255, 0.744), #0000005b),
+        url(https://ca-times.brightspotcdn.com/dims4/default/c1a61d9/2147483647/strip/true/crop/3840x2160+0+0/resize/1200x675!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F03%2F0d%2F44d557194a8db3da6f4536cc2f30%2Favtr-226.jpg);
+    ;
+    background-repeat: no-repeat;
+    background-size: 250vh;
+}
+
+.countern {
+    width: 90%;
+    height: 650px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-shadow: 2px 3px 2px black;
+    transition: 0.5s;
+}
+
+.logo:hover {
+
+    text-shadow: 30px 10px 2px rgba(0, 0, 0, 0.533);
+    color: gold;
+}
+
+ul {
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul a {
+    transition: 0.5s;
+}
+
+ul a:hover {
+    background-color: rgba(238, 234, 234, 0.426);
+    padding: 15px;
+    border-radius: 25px;
+    color: rgb(30, 30, 29);
+}
+
+.cont {
+    position: relative;
+    top: 200px;
+    left: 30px;
+    width: 50%;
+    font-size: 30px;
+    color: wheat;
+    padding: 2px;
+    margin: 20px;
+
+}
+
+.cont h1 {
+
+    font-size: 40px;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-shadow: 2px 3px 2px black;
+    transition: 0.5s;
+}
+
+.dz {
+    width: 300px;
+    height: 70px;
+    background-color: rgba(180, 9, 9, 0.676);
+    border-radius: 25px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0 70px;
+    margin: 20px;
+    transition: 0.5s;
+    font-size: 30px;
+}
+
+.dz i {
+    font-size: 25px;
+    color: #f3f3f8de;
+    transition: 0.5s;
+}
+
+.dz:hover {
+    background-color: rgb(225, 12, 12);
+    font-size: 40px;
+    width: 450px;
+   
+}
+
+.dz i:hover {
+    color: gold;
+    font-size: 50px;
+}
+.cont p{
+    transition: 0.5s;
+}
+.cont p:hover{
+        background-color: rgba(238, 234, 234, 0.426);
+        padding: 5px;
+        border-radius: 30px;
+        width: 650px;
+        color: #000000c1;
+}
