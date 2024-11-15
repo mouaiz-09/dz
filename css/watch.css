@@ -1,0 +1,342 @@
+/*
+star global rules
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*gonts googel*/
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: wheat;
+
+}
+
+:root {
+    --min-color: #123;
+    --dz--color: green;
+    --a1-color: yellow;
+
+}
+
+body {
+    /*google fonts*/
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+   background-color: #1d1d1f;
+
+}
+
+/*
+end global rules
+*/
+/*resonsif*/
+/*small*/
+@media (max-width: 786px) {
+    .contuner {
+        width: 750px;
+    }
+    
+}
+
+/*medai*/
+
+@media (min-width: 992px) {
+    .contuner {
+        width: 992px;
+    }
+
+}
+
+/*larg*/
+
+
+@media (min-width: 1200px) {
+    .contuner {
+        width: 1170px;
+    }
+
+    .contuner .link ul {
+        display: none;
+    }
+}
+
+/*hedaer css star*/
+.hedaer {
+    margin-top: 5px;
+}
+
+/*contuner css star*/
+.contuner {
+    margin: auto;
+    height: 50px;
+    position: relative;
+    padding: 10px;
+    /*felx */
+    display: flex;
+    align-items: center;
+
+}
+
+/*contuner css end*/
+
+/*logo stra*/
+.hedaer .contuner .logo h3 {
+    font-size: 45px;
+    font-weight: 900;
+    font-style: italic;
+    color: yellow;
+
+}
+
+/*logo end*/
+.logo {
+    width: 50%;
+
+
+}
+
+
+/*الاب star*/
+.contuner-2 {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.6s ;   
+}
+
+
+
+/*اذكا رstar*/
+.contuner-2 .adkar {
+    width: 100%;
+    text-align: center;
+}
+
+.contuner-2 .adkar h2 {
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    font-family: "Noto Nastaliq Urdu", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/*اذكا رend*/
+
+/*contenet star*/
+.contuner-2 .contuner {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*text star */
+.contuner-2 .contuner .text-move {
+    margin: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.contuner-2 .contuner .text-move h2 {
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-weight: 800;
+    font-style: italic;
+    background-color: rgba(126, 124, 112, 0.753);
+    padding: 10px 15px;
+    border-radius: 30px;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 15px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.contuner-2 .contuner .text-move h2:hover {
+    width: 100%;
+    padding: 15px 2px;
+    box-shadow: 0px 0px 4px 4px wheat;
+
+
+}
+
+/*text end */
+
+/*video star*/
+
+/*nebmber of ep*/
+.contuner-2 .contuner .nember {
+    width: 100%;
+    text-align: end;
+
+}
+
+.contuner-2 .contuner .vide-player {
+    width: 100%;
+    height: 100svh;
+    border-radius: 30px;
+    background-color: rgba(30, 4, 53, 0.274);
+    padding: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.contuner-2 .contuner .vide-player:hover {
+    background-color: #1E3231
+}
+
+.contuner-2 .contuner .vide-player .video {
+    width: 100%;
+    height: 90%;
+    border-radius: 30px;
+}
+
+/*video end*/
+
+/*التنزيلات*/
+.contuner-2 .dou {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+/*التنزيل*/
+.contuner-2 .dou a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.contuner-2 .dou .download {
+    text-decoration: none;
+    background-color: rgba(0, 181, 253, 0.856);
+    padding: 8px 10px;
+    font-size: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.contuner-2 .dou .download:hover {
+    flex-grow: 2;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(0, 67, 253);
+
+    span {
+        color: rgb(255, 255, 255);
+        font-size: 55px;
+    }
+}
+
+.contuner-2 .dou .download span {
+    font-size: 30px;
+    margin-left: 2px;
+    transition: 0.5s ease-in-out;
+}
+
+/*التنزيل*/
+
+/*الجودة*/
+
+
+/*جدول الجودة stra*/
+.contuner-2 .dou .caliti {
+background-color: #1E3231;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 30px;
+    width: 70%;
+    gap: 10px;
+    transition: 0.5s;
+
+}
+
+.contuner-2 .dou .caliti:hover {
+   flex-grow: 4;
+    background-color: rgba(28, 3, 51, 0.863);
+}
+
+/*العنصر*/
+
+.contuner-2 .dou .caliti a {
+    background-color: rgb(219, 255, 14);
+    padding: 10px 5%;
+    border-radius: 30px;
+    color: black;
+    font-family: cursive;
+    font-size: 25px;
+    transition: 0.5s ;
+ 
+}
+
+.contuner-2 .dou .caliti a:hover {
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.699);
+    margin-right: 15px;
+    box-shadow: 0px 0px 4px 4px wheat;
+
+}
+
+/*العنصر*/
+
+.contuner-2 .dou .caliti p {
+    color: rgba(255, 255, 255, 0.884);
+    transition: 0.5s ease-in-out;
+}
+
+
+/*جدول الجودة stra*/
+/*الجودة end*/
+
+/*foter  css stra*/
+.tr{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(31, 29, 29);
+    margin-top: 70px;
+ padding: 20px;
+}
+.tr .dx{
+ 
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.tr .dx a{
+    color: wheat;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 15px;
+    text-transform: capitalize;
+  transition: 0.5s ease-out;
+}
+
+.tr .dx a:hover{
+    background-color: #afafafc7;
+    padding: 5px;
+    border-radius: 25px;
+    transition: 0.5;
+}

@@ -1,0 +1,446 @@
+/*
+star global rules
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*gonts googel*/
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+body {
+    background-color: #123;
+}
+
+:root {
+    --min-color: #123;
+    --dz--color: green;
+    --a1-color: yellow;
+
+}
+
+
+/*
+end global rules
+*/
+.sdh {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*اثيثق*/
+
+.home {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: rgb(41, 39, 37);
+    margin-top: 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.home .home-top {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100%;
+
+
+}
+
+@media screen and (max-width: 600px) {
+    div.hder .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    div.hder {
+        flex-wrap: wrap;
+    }
+
+    div.hder .links {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    div.hder ul {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    div.hder ul li {
+        width: 100%;
+    }
+
+    div.home .home-top {
+        flex-wrap: wrap;
+    }
+
+    div.home .home-top .logo {
+        width: 100%;
+    }
+
+    div.home .home-top .mark p {
+        margin: 10px;
+    }
+
+    div.home .home-top .mark ul {
+        width: 100%;
+    }
+
+    div.home .home-watch .sizon1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.home-watch .ru {
+        width: 100%;
+        justify-content: space-around;
+    }
+    div.int{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    div.int p{
+        width: 100%;
+        display: block;
+    }
+    
+    div.int ul {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        column-gap: 10px;
+    }
+           div.int ul li{
+            flex-grow: 1;
+
+           }
+                   div.end.int {
+                    gap: 30px;
+                   }
+}
+
+.home-top .der {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home .home-top .logo {
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.home .home-top .logo .imge {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home .home-top .info {
+    width: 100%;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(11, 29, 46);
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.home-top .info h2 {
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+
+.home-top .info p {
+    text-align: end;
+    margin-top: 20px;
+    color: #f5f5f5;
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.home-top .info .desp {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+
+.home-top .info span {
+    color: rgba(245, 245, 245, 0.603);
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.home-top .mark {
+    width: 100%;
+    height: 100%;
+}
+
+
+.mark ul {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.mark ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    background-color: #4d4d4d83;
+    border-radius: 15px;
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.der .home-watch {
+    width: 100%;
+
+
+}
+
+.home-watch .sizon1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+
+}
+
+.home-watch .watch-text {
+    width: 70%;
+    text-align: center;
+    background-color: #808080be;
+    padding: 7px;
+    margin: auto;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.watch-text h2 {
+    color: white;
+    font-size: 25px;
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.watch-tabel {
+    width: 100%;
+    margin-left: 10px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.watch-tabel table {
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    border-spacing: 3px;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+table,
+th,
+td,
+tr {
+    border-radius: 30px;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+th {
+    border: 1px solid black;
+    background-color: rgb(5, 77, 150);
+}
+
+tr {
+    background-color: rgb(71, 69, 69);
+}
+
+.co {
+    background-color: green;
+
+}
+
+.co a {
+    color: whitesmoke
+}
+
+.home-watch .ru {
+    width: 50%;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.ru p {
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 3px 5px;
+    margin-top: 5px;
+}
+
+.ru .gren {
+    background-color: rgba(0, 128, 0, 0.733);
+    border-radius: 17px;
+}
+
+.ru .red {
+    background-color: #ff0000c4;
+    border-radius: 17px;
+}
+
+
+
+.int {
+    width: 100%;
+    text-align: center;
+    direction: rtl;
+    margin-right: 15px;
+    padding: 10px;
+    display: flex   ;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.int p {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.int p::after {
+    content: ":";
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.int p::before {
+    content: "*";
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.int ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    list-style: none;
+    color: wheat;
+    gap: 20px;
+}
+
+ul a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.infs {
+    width: 100%;
+
+    text-align: center;
+}
+
+.infs ul {
+    margin: auto;
+    margin-bottom: 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.infs a {
+    background-color: gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+.end{
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.end .int{
+    width: 50%;
+    margin: auto;
+}
+h5{
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+.dix{
+    width: 100%;
+    text-align: center;
+}
